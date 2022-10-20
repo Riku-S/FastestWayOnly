@@ -1,0 +1,272 @@
+/* montserrat-regular - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''), url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-600 - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600.eot'); /* IE9 Compat Modes */
+    src: local(''), url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.eot'); /* IE9 Compat Modes */
+    src: local(''), url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-600italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600italic.eot'); /* IE9 Compat Modes */
+    src: local(''), url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-600italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-800italic - vietnamese_latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-800italic.eot'); /* IE9 Compat Modes */
+    src: local(''), url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-800italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-800italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v25-vietnamese_latin-ext_latin_cyrillic-ext_cyrillic-800italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    color: #efefef;
+    background-color: #1f1f1f;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+a {
+    color: #efefef;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+}
+
+
+tr {
+    border-block-color: #808080;
+    border-width: 0 0 1px 0;
+}
+
+tr:nth-child(odd) {
+    background-color: #282828;
+}
+
+    tr:first-child {
+        border-block-color: #808080;
+        border-width: 0 0 2px 0;
+    }
+
+tr:last-child {
+    border-width: 0;
+}
+
+table{
+    margin:20px auto;
+    width:100%;
+}
+
+.separator {
+    border-block-color: #808080;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    margin: 20px 0;
+}
+
+h1 {
+    font-style: italic;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+h2 {
+    font-style: italic;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.smaller {
+    font-size: 24px;
+}
+
+.button-like {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-family: Montserrat;
+    font-weight: 600;
+    background-color: #5662F6;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button-like:hover {
+    background-color: #4652D6;
+}
+
+.news-div {
+    display: inline-block;
+    width: 360px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.navbar {
+    background-color: #A02000;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-style: italic;
+    font-family: Montserrat;
+    font-weight: 800;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        font-size: 16px;
+    }
+}
+
+.navbar-toggler {
+    color: white;
+    border: solid;
+    border-width: 2px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+li {
+    height: 100%;
+    padding-right: 20px;
+}
+
+.twitch-div {
+    width: 480px;
+    height: 270px;
+    margin: auto;
+}
+
+.yt-div {
+    display: inline-block;
+    width: 320px;
+    height: 180px;
+    margin: 10px;
+    vertical-align: top;
+}

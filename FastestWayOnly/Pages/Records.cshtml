@@ -1,0 +1,35 @@
+﻿@page
+@model FastestWayOnly.Pages.RecordsModel
+@{
+	ViewData["Title"] = "World Records";
+}
+
+<div class="text-center">
+	<h1>ғฟ๏ World Records</h1>
+
+	<h2>Trackmania Nations Forever: @Models.TMX.TMNFRecords.RecordList.Results.Length / @Models.TMX.TMNFRecords.MapCount</h2>
+	@Html.Raw(Models.TMX.TMNFRecords.GetTableHtml())
+
+	<div class="separator"></div>
+	<h2>Trackmania Nations ESWC: @Models.TMX.ESWCRecords.RecordList.Results.Length / @Models.TMX.ESWCRecords.MapCount</h2>
+	@Html.Raw(Models.TMX.ESWCRecords.GetTableHtml())
+
+	<h3>ESWC Remakes @Models.TMX.TMNRemakeRecords.RecordList.Results.Length / @Models.TMX.TMNRemakeRecords.MapCount</h3>
+	@Html.Raw(Models.TMX.TMNRemakeRecords.GetTableHtml())
+
+	<div class="separator"></div>
+	<h2>Trackmania United Exchange</h2>
+	<h3>Trackmania United Forever @Models.TMX.TMUFRecords.RecordList.Results.Length / @Models.TMX.TMUFRecords.MapCount</h3>
+	@Html.Raw(Models.TMX.TMUFRecords.GetTableHtml())
+
+	<h3>Star Tracks @Models.TMX.StarRecords.RecordList.Results.Length / @Models.TMX.StarRecords.MapCount</h3>
+	@Html.Raw(Models.TMX.StarRecords.GetTableHtml())
+
+	<h3>Trackmania Original @Models.TMX.TMORecords.RecordList.Results.Length / @Models.TMX.TMORecords.MapCount</h3>
+	@Html.Raw(Models.TMX.TMORecords.GetTableHtml())
+
+	<h3>Trackmania Sunrise @Models.TMX.TMSRecords.RecordList.Results.Length / @Models.TMX.TMSRecords.MapCount</h3>
+	@Html.Raw(Models.TMX.TMSRecords.GetTableHtml())
+
+	Replay list is refreshed daily, using TMX API. TM2 / TM2020 records might be coming up one day.
+</div>
