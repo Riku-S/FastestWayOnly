@@ -65,7 +65,7 @@ namespace FastestWayOnly.Models
         static async Task GetNews()
         {
             Debug.WriteLine("Gathering news...");
-
+            NewsMessages.Clear();
 
 
             await _client.LoginAsync(TokenType.Bot, Properties.EnvVars.DiscordBotToken);
