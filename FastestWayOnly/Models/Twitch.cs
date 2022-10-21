@@ -49,10 +49,12 @@ namespace FastestWayOnly.Models
         }
         static void StreamCycle()
         {
-            GetStreamsTwitch().Wait();
-            // Refresh every 5 minutes
-            Thread.Sleep(300_000);
-            StreamCycle();
+            while (true)
+            {
+                GetStreamsTwitch().Wait();
+                // Refresh every 5 minutes
+                Thread.Sleep(300_000);
+            }
         }
         public static void StartStreamCycle()
         {

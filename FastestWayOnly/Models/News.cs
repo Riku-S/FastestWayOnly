@@ -91,10 +91,12 @@ namespace FastestWayOnly.Models
 
         static void NewsCycle()
         {
-            GetNews().Wait();
-            // Refresh hourly
-            Thread.Sleep(3_600_000);
-            NewsCycle();
+            while (true)
+            {
+                GetNews().Wait();
+                // Refresh hourly
+                Thread.Sleep(3_600_000);
+            }
         }
 
         public static void StartNewsCycle()

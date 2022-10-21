@@ -143,18 +143,20 @@ namespace FastestWayOnly.Models
         }
         static void TMXCycle()
         {
-            TMNFRecords.GetRecords();
-            ESWCRecords.GetRecords();
-            TMUXRecords.GetRecords();
-            StarRecords.GetRecords();
-            TMUXRecords.MoveToListIfContains(TMNRemakeRecords, new string[] { "TMN" });
-            TMUXRecords.MoveToListIfContains(TMORecords, new string[] { "TMO", "TM Demo", "TMO Demo", "TMPU" });
-            TMUXRecords.MoveToListIfContains(TMSRecords, new string[] { "TMS" });
-            TMUXRecords.MoveToListIfNotContains(TMUFRecords, new string[] { "TMN", "TMO", "TMS", "Demo" });
+            while (true)
+            {
+                TMNFRecords.GetRecords();
+                ESWCRecords.GetRecords();
+                TMUXRecords.GetRecords();
+                StarRecords.GetRecords();
+                TMUXRecords.MoveToListIfContains(TMNRemakeRecords, new string[] { "TMN" });
+                TMUXRecords.MoveToListIfContains(TMORecords, new string[] { "TMO", "TM Demo", "TMO Demo", "TMPU" });
+                TMUXRecords.MoveToListIfContains(TMSRecords, new string[] { "TMS" });
+                TMUXRecords.MoveToListIfNotContains(TMUFRecords, new string[] { "TMN", "TMO", "TMS", "Demo" });
 
-            // Refresh daily
-            Thread.Sleep(86_400_000);
-            TMXCycle();
+                // Refresh daily
+                Thread.Sleep(86_400_000);
+            }
         }
 
         public static void StartTMXCycle()

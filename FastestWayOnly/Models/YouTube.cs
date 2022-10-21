@@ -116,10 +116,12 @@ namespace FastestWayOnly.Models
 
         static void VideoCycle()
         {
-            RequestVideos().Wait();
-            // Refresh daily
-            Thread.Sleep(86_400_000);
-            VideoCycle();
+            while (true)
+            {
+                RequestVideos().Wait();
+                // Refresh daily
+                Thread.Sleep(86_400_000);
+            }
         }
 
         public static void StartVideoCycle()
