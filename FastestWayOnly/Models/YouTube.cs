@@ -88,6 +88,7 @@ namespace FastestWayOnly.Models
         {
             Debug.WriteLine("Requesting videos from Youtube");
 
+            VideoList.Clear();
             List<string> playlistIDs = new List<string>();
 
             foreach (Member member in Member.GetMembers())
