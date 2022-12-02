@@ -12,7 +12,7 @@ namespace FastestWayOnly.Models
         static string MakeYoutubeEmbed(string link)
         {
             string[] parts = link.Split('/');
-            return "<br /><iframe width=\"320\" height=\"263\" src=\"https://www.youtube.com/embed/" + parts[parts.Length - 1] + "\"></iframe>";
+            return "<br /><iframe width=\"288\" height=\"162\" src=\"https://www.youtube.com/embed/" + parts[parts.Length - 1] + "\"></iframe>";
         }
 
         static string MakeNewsHtml(string message)

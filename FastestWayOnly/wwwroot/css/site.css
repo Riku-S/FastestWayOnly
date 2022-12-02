@@ -175,7 +175,7 @@ h3 {
 
 .news-div {
     display: inline-block;
-    width: 360px;
+    width: 320px;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
@@ -258,8 +258,8 @@ li {
 }
 
 .twitch-div {
-    width: 480px;
-    height: 270px;
+    width: 320px;
+    height: 180px;
     margin: auto;
 }
 
@@ -267,6 +267,6 @@ li {
     display: inline-block;
     width: 320px;
     height: 180px;
-    margin: 10px;
+    margin: 10px auto;
     vertical-align: top;
 }
